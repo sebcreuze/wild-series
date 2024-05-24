@@ -22,9 +22,3 @@ app
   });
 
 // Déclaration des routes
-
-  const welcome =  (req, res) => {
-    res.send("Welcome to Wild Series!");
-  };
-  
-  app.get("/", welcome);
